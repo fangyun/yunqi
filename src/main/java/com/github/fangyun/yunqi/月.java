@@ -1,9 +1,7 @@
 /**
  * @Copyright 2018
  */
-package com.github.fangyun.yunqi.yue;
-
-import com.github.fangyun.yunqi.zhi.支;
+package com.github.fangyun.yunqi;
 
 /**
  * @author FangYun
@@ -24,4 +22,6 @@ public interface 月 {
 	int order();
 	
 	支 build();
+	
+	季 getSeason();
 }

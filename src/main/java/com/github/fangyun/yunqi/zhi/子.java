@@ -3,6 +3,10 @@
  */
 package com.github.fangyun.yunqi.zhi;
 
+import com.github.fangyun.yunqi.支;
+import com.github.fangyun.yunqi.月;
+import com.github.fangyun.yunqi.yue.十一月;
+
 /**
  * @author FangYun
  *
@@ -22,7 +26,7 @@ public class 子 implements 支 {
 	}
 
 	@Override
-	public int order() {
+	public int getOrder() {
 		return 1;
 	}
 
@@ -30,4 +34,10 @@ public class 子 implements 支 {
 		return INSTANCE;
 	}
 
+	@Override
+	public 月 getMonth() {
+		return 十一月.getInstance();
+	}
+
+	
 }

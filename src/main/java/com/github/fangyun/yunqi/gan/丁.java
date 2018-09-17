@@ -3,18 +3,26 @@
  */
 package com.github.fangyun.yunqi.gan;
 
+import com.github.fangyun.yunqi.干;
+
 /**
  * @author FangYun
  *
  */
-public class Wu implements Gan {
+public class 丁 implements 干 {
 
 	/* (non-Javadoc)
 	 * @see com.github.fangyun.yunqi.gan.Gan#chineseName()
 	 */
 	@Override
 	public String chineseName() {
-		return "戊";
+		return "丁";
 	}
 
+	@Override
+	public int getOrder() {
+		return 4;
+	}
+
+	
 }

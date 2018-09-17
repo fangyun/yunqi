@@ -7,6 +7,16 @@ package com.github.fangyun.yunqi;
  * @author FangYun
  *
  */
-public interface 阴 extends 极 {
+public class 阴 implements 极 {
 
+	private static final 阴 INSTANCE = new 阴();
+	
+	public static 阴 getInstance() {
+		return INSTANCE;
+	}
+
+	@Override
+	public 阴 getPolarity() {
+		return INSTANCE;
+	}
 }

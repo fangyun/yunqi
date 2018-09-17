@@ -3,8 +3,9 @@
  */
 package com.github.fangyun.yunqi.zhi;
 
+import com.github.fangyun.yunqi.支;
+import com.github.fangyun.yunqi.月;
 import com.github.fangyun.yunqi.yue.一月;
-import com.github.fangyun.yunqi.yue.月;
 
 /**
  * @author FangYun
@@ -12,8 +13,10 @@ import com.github.fangyun.yunqi.yue.月;
  */
 public class 寅 implements 支 {
 	private final static 寅 INSTANCE = new 寅();
-	
-	/* (non-Javadoc)
+
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see com.github.fangyun.yunqi.zhi.Zhi#chineseName()
 	 */
 	@Override
@@ -21,7 +24,7 @@ public class 寅 implements 支 {
 		return "寅";
 	}
 
-	public 月 month() {
+	public 月 getMonth() {
 		return 一月.getInstance();
 	}
 
@@ -30,9 +33,7 @@ public class 寅 implements 支 {
 	}
 
 	@Override
-	public int order() {
+	public int getOrder() {
 		return 3;
 	}
-
-
 }

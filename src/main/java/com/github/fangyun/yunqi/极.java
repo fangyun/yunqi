@@ -8,5 +8,5 @@ package com.github.fangyun.yunqi;
  *
  */
 public interface 极 {
-
+	极  getPolarity();
 }

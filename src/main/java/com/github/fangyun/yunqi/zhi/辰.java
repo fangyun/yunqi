@@ -3,6 +3,10 @@
  */
 package com.github.fangyun.yunqi.zhi;
 
+import com.github.fangyun.yunqi.支;
+import com.github.fangyun.yunqi.月;
+import com.github.fangyun.yunqi.yue.三月;
+
 /**
  * @author FangYun
  *
@@ -21,7 +25,7 @@ public class 辰 implements 支 {
 	}
 
 	@Override
-	public int order() {
+	public int getOrder() {
 		return 5;
 	}
 
@@ -29,4 +33,11 @@ public class 辰 implements 支 {
 		return INSTANCE;
 	}
 
+
+	@Override
+	public 月 getMonth() {
+		return 三月.getInstance();
+	}
+
+	
 }

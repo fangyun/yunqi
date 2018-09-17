@@ -3,14 +3,19 @@
  */
 package com.github.fangyun.yunqi.yue;
 
+import com.github.fangyun.yunqi.季;
+import com.github.fangyun.yunqi.支;
+import com.github.fangyun.yunqi.月;
+import com.github.fangyun.yunqi.ji.秋;
 import com.github.fangyun.yunqi.zhi.申;
-import com.github.fangyun.yunqi.zhi.支;
 
 /**
  * @author FangYun
  *
  */
 public class 七月 implements 月 {
+	private static final 七月 INSTANCE = new 七月();
+
 	public String chineseName() {
 		return "七月";
 	}
@@ -23,5 +28,14 @@ public class 七月 implements 月 {
 	@Override
 	public 支 build() {
 		return 申.getInstance();
+	}
+
+	@Override
+	public 季 getSeason() {
+		return 秋.getInstance();
+	}
+
+	public static 七月 getInstance() {
+		return INSTANCE;
 	}
 }

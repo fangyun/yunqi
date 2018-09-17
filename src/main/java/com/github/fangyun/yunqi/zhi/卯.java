@@ -3,6 +3,10 @@
  */
 package com.github.fangyun.yunqi.zhi;
 
+import com.github.fangyun.yunqi.支;
+import com.github.fangyun.yunqi.月;
+import com.github.fangyun.yunqi.yue.二月;
+
 /**
  * @author FangYun
  *
@@ -25,8 +29,13 @@ public class 卯 implements 支 {
 	}
 
 	@Override
-	public int order() {
+	public int getOrder() {
 		return 4;
+	}
+
+	@Override
+	public 月 getMonth() {
+		return 二月.getInstance();
 	}
 
 }
