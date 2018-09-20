@@ -25,13 +25,7 @@ public class 庚 implements 干 {
 	public static  庚  getInstance() {
 		return INSTANCE;
 	}
-	/* (non-Javadoc)
-	 * @see com.github.fangyun.yunqi.gan.Gan#chineseName()
-	 */
-	@Override
-	public String chineseName() {
-		return "庚";
-	}
+
 
 	@Override
 	public int getOrder() {

@@ -25,13 +25,7 @@ public class 癸 implements 干 {
 	public static  癸  getInstance() {
 		return INSTANCE;
 	}
-	/* (non-Javadoc)
-	 * @see com.github.fangyun.yunqi.gan.Gan#chineseName()
-	 */
-	@Override
-	public String chineseName() {
-		return "癸";
-	}
+
 
 	@Override
 	public int getOrder() {

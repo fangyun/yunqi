@@ -27,15 +27,7 @@ public class 戊 implements 干 {
 		return INSTANCE;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.github.fangyun.yunqi.gan.Gan#chineseName()
-	 */
-	@Override
-	public String chineseName() {
-		return "戊";
-	}
+
 
 	@Override
 	public int getOrder() {

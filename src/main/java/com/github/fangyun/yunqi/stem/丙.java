@@ -26,13 +26,7 @@ public class 丙 implements 干 {
 	public static  丙  getInstance() {
 		return INSTANCE;
 	}
-	/* (non-Javadoc)
-	 * @see com.github.fangyun.yunqi.gan.Gan#chineseName()
-	 */
-	@Override
-	public String chineseName() {
-		return "丙";
-	}
+
 
 	@Override
 	public int getOrder() {

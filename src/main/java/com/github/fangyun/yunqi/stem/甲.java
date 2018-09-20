@@ -12,7 +12,7 @@ import com.github.fangyun.yunqi.支;
 import com.github.fangyun.yunqi.脏腑;
 import com.github.fangyun.yunqi.运;
 import com.github.fangyun.yunqi.branch.寅;
-import com.github.fangyun.yunqi.motion.木;
+import com.github.fangyun.yunqi.motion.土;
 import com.github.fangyun.yunqi.viscera.胆;
 
 /**
@@ -27,14 +27,6 @@ public class 甲 implements 干 {
 		return INSTANCE;
 	}
 
-	/* (non-Javadoc)
-	 * @see com.github.fangyun.yunqi.gan.Gan#chineseName()
-	 */
-	@Override
-	public String chineseName() {
-		return "甲";
-	}
-
 	@Override
 	public int getOrder() {
 		return 1;
@@ -42,7 +34,7 @@ public class 甲 implements 干 {
 
 	@Override
 	public 运 getMotion() {
-		return 木.getInstance();
+		return 土.getInstance();
 	}
 
 	@Override
@@ -54,4 +46,5 @@ public class 甲 implements 干 {
 	public List<脏腑> getVisceras() {
 		return Arrays.asList(胆.getInstance());
 	}
+
 }

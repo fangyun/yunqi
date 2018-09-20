@@ -15,4 +15,8 @@ public interface 运 {
 	}
 	
 	List<干> getStems();
+	
+	干 getStem(度 degree);
+	
+	String getClimate(度 degree);
 }

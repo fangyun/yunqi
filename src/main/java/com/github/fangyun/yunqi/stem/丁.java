@@ -27,13 +27,6 @@ public class 丁 implements 干 {
 		return INSTANCE;
 	}
 
-	/* (non-Javadoc)
-	 * @see com.github.fangyun.yunqi.gan.Gan#chineseName()
-	 */
-	@Override
-	public String chineseName() {
-		return "丁";
-	}
 
 	@Override
 	public int getOrder() {
