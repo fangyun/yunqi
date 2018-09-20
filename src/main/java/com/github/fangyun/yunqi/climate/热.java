@@ -18,7 +18,7 @@ import com.github.fangyun.yunqi.polarity.少阴;
  * @author FangYun
  *
  */
-public class 暑 implements 气 {
+public class 热 implements 气 {
 
 	public List<String> aliasNames() {
 		return Arrays.asList("热","君火");

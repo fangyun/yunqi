@@ -3,13 +3,11 @@
  */
 package com.github.fangyun.yunqi.polarity;
 
-import com.github.fangyun.yunqi.极;
-
 /**
  * @author FangYun
  *
  */
-public class 厥阴 implements 极 {
+public class 厥阴 extends 阴 {
 	private static final 厥阴 INSTANCE = new 厥阴();
 	
 	public static 厥阴 getInstance() {
