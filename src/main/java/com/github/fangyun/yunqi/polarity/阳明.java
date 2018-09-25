@@ -14,8 +14,4 @@ public class 阳明 extends 阳 {
 		return INSTANCE;
 	}
 
-	@Override
-	public 阳明 getPolarity() {
-		return INSTANCE;
-	}
 }

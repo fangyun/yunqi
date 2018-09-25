@@ -9,6 +9,8 @@ import java.util.List;
 
 import com.github.fangyun.yunqi.干;
 import com.github.fangyun.yunqi.行;
+import com.github.fangyun.yunqi.音;
+import com.github.fangyun.yunqi.music.羽;
 import com.github.fangyun.yunqi.stem.壬;
 import com.github.fangyun.yunqi.stem.癸;
 
@@ -36,5 +38,10 @@ public class 水 implements 行 {
 	
 	public List<干> getStems(){
 		return Collections.unmodifiableList(Arrays.asList(壬.getInstance(),癸.getInstance()));
+	}
+
+	@Override
+	public 音 getMusic() {
+		return 羽.getInstance();
 	}
 }

@@ -9,6 +9,8 @@ import java.util.List;
 
 import com.github.fangyun.yunqi.干;
 import com.github.fangyun.yunqi.行;
+import com.github.fangyun.yunqi.音;
+import com.github.fangyun.yunqi.music.徵;
 import com.github.fangyun.yunqi.stem.丁;
 import com.github.fangyun.yunqi.stem.丙;
 
@@ -34,6 +36,11 @@ public class 火 implements 行 {
 	}
 	public List<干> getStems(){
 		return Collections.unmodifiableList(Arrays.asList(丙.getInstance(),丁.getInstance()));
+	}
+
+	@Override
+	public 音 getMusic() {
+		return 徵.getInstance();
 	}
 
 }

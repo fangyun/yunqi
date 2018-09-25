@@ -3,6 +3,7 @@
  */
 package com.github.fangyun.yunqi.polarity;
 
+import com.github.fangyun.yunqi.度;
 import com.github.fangyun.yunqi.极;
 
 /**
@@ -18,7 +19,7 @@ public class 阴 implements 极 {
 	}
 
 	@Override
-	public 阴 getPolarity() {
-		return INSTANCE;
+	public 度 getDegree() {
+		return null;
 	}
 }

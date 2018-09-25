@@ -3,6 +3,7 @@
  */
 package com.github.fangyun.yunqi.branch;
 
+import com.github.fangyun.yunqi.度;
 import com.github.fangyun.yunqi.支;
 import com.github.fangyun.yunqi.月;
 import com.github.fangyun.yunqi.脏腑;

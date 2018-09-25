@@ -14,8 +14,4 @@ public class 太阴  extends 阴 {
 		return INSTANCE;
 	}
 
-	@Override
-	public 太阴 getPolarity() {
-		return INSTANCE;
-	}
 }

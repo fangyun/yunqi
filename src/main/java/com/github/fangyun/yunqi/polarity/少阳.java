@@ -14,8 +14,4 @@ public class 少阳 extends 阳 {
 		return INSTANCE;
 	}
 
-	@Override
-	public 少阳 getPolarity() {
-		return INSTANCE;
-	}
 }

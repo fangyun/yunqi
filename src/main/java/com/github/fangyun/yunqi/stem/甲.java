@@ -11,8 +11,10 @@ import com.github.fangyun.yunqi.干;
 import com.github.fangyun.yunqi.支;
 import com.github.fangyun.yunqi.脏腑;
 import com.github.fangyun.yunqi.运;
+import com.github.fangyun.yunqi.音;
 import com.github.fangyun.yunqi.branch.寅;
 import com.github.fangyun.yunqi.motion.土;
+import com.github.fangyun.yunqi.music.宫;
 import com.github.fangyun.yunqi.viscera.胆;
 
 /**
@@ -47,4 +49,7 @@ public class 甲 implements 干 {
 		return Arrays.asList(胆.getInstance());
 	}
 
+	public 音 getMusic() {
+		return 宫.getInstance();
+	}
 }

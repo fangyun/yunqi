@@ -15,4 +15,6 @@ public interface 行 {
 	行 restrain();
 	
 	List<干> getStems();
+	
+	音 getMusic();
 }

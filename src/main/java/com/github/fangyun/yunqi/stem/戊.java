@@ -11,9 +11,11 @@ import com.github.fangyun.yunqi.干;
 import com.github.fangyun.yunqi.支;
 import com.github.fangyun.yunqi.脏腑;
 import com.github.fangyun.yunqi.运;
+import com.github.fangyun.yunqi.音;
 import com.github.fangyun.yunqi.branch.戌;
 import com.github.fangyun.yunqi.branch.辰;
 import com.github.fangyun.yunqi.motion.土;
+import com.github.fangyun.yunqi.music.徵;
 import com.github.fangyun.yunqi.viscera.胃;
 
 /**
@@ -47,6 +49,13 @@ public class 戊 implements 干 {
 	@Override
 	public List<脏腑> getVisceras() {
 		return Arrays.asList(胃.getInstance());
+	}
+
+
+
+	@Override
+	public 音 getMusic() {
+		return 徵.getInstance();
 	}
 	
 	

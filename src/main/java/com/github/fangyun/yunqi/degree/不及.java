@@ -13,9 +13,18 @@ import com.github.fangyun.yunqi.polarity.阴;
  */
 public class 不及 implements 度 {
 
+	private static final 不及 INSTANCE = new 不及();
+
 	@Override
 	public 极 getPolarity() {
 		return 阴.getInstance();
 	}
 
+	public String getAlias() {
+		return "少";
+	}
+
+	public static 不及 getInstance() {
+		return INSTANCE;
+	}
 }
